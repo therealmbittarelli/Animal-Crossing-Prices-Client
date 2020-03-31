@@ -170,11 +170,11 @@ export default class Guide extends Component {
           type='text' />
         <div
           id='grid-container'>
-          <div className='grid-header' id='item'>Item</div>
-          <div className='grid-header' id='ingredients'>Ingredients</div>
-          <div className='grid-header' id='price'>Sell price</div>
-          <div className='grid-header' id='type'>Type</div>
-          <div className='grid-header' id='tags'>Tags</div>
+          <div className='grid-header bold' id='item'>Item</div>
+          <div className='grid-header bold' id='ingredients'>Ingredients</div>
+          <div className='grid-header bold' id='price'>Sell price</div>
+          <div className='grid-header bold' id='type'>Type</div>
+          <div className='grid-header bold' id='tags'>Tags</div>
           {this.addStuff()}
         </div>
       </div>
