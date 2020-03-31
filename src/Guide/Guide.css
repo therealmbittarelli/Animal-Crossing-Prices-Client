@@ -1,0 +1,25 @@
+
+
+#guide-parent {  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+#grid-container {
+  justify-content: center;
+  background-color: white;
+  opacity: .75;
+  text-align: center;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(200px, 200px));
+  /* grid-template-rows: 80px auto 80px; */
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+
+.grid-data-cell {
+  border-bottom: 2px dashed orangered;
+}

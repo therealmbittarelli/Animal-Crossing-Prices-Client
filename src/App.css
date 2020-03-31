@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'finkheavyregular';
+  src: url('./finkheavy_regular-webfont.woff2') format('woff2'),
+       url('./finkheavy_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+body {
+  background-image: url('./piqKdAodT.jpg');
+}
+
+.App {
+  text-align: center;
+  font-family: 'finkheavyregular';
+}
