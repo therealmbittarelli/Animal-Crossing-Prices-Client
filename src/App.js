@@ -1,7 +1,8 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Guide from './Guide/Guide';
-// import Login from './Login/Login';
+import Add from './Add/Add';
+import NotFound from './NotFound/NotFound';
 import Header from './Header/Header';
 import './App.css';
 
@@ -11,11 +12,15 @@ function App() {
       <Header />
       <Switch>
         <Route
+          exact
           path='/'
           component={Guide} />
-        {/* <Route 
-            path='/login'
-            component={Login}/> */}
+        <Route
+          exact
+          path='/add'
+          component={Add} />
+        <Route
+          component={NotFound} />
       </Switch>
     </div>
   );
